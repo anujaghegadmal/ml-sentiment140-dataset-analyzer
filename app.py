@@ -32,10 +32,9 @@ def predict_sentiment(text):
 
 # Streamlit UI
 st.title("Sentiment Prediction App")
-st.write("Enter a sentence to predict its sentiment.")
 
 # User input
-user_input = st.text_area("Enter your text below:", height=150)
+user_input = st.text_area("Enter a sentence to predict its sentiment:", height=150)
 
 sentiment_map = {
             "negative": "Negative",
